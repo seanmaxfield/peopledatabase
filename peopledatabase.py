@@ -21,9 +21,6 @@ def entryreturn(en):
             s3=0
             y3=2
             def search():
-                #form=Tk() could go with e3
-                #form.title("Form")
-                #Label(form, text="Name").grid(row=0)
                 def form1(en):
                     input1=e3.get()
                     count=0
@@ -52,9 +49,6 @@ def entryreturn(en):
                 e3.bind('<Return>',form1)
             shake = open("malenames.txt", "r")
             def search2():
-                #form3=Tk() could go with e4
-                #form3.title("Form")
-                #Label(form3, text="Name").grid(row=0)
                 def form2(en):
                     input2=e4.get()
                     count1=0
@@ -94,17 +88,6 @@ def entryreturn(en):
             e6.grid(row=2, column=1)
             e6.bind('<Return>', maleorfemale)
             wind.mainloop()
-            #form.mainloop()
-            #form3.mainloop()
-
-            #count = 0
-            #for i in range(5):
-               #count +=1 # variable will increment every loop iteration
-               # your code
-
-
-            #print(count)
-
 
 e1 = Entry(master)
 e2 = Entry(master)
